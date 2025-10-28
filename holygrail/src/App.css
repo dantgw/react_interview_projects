@@ -1,0 +1,33 @@
+nav{
+  background-color: #1234aa;
+  height:80px;
+}
+
+.middleSection{
+  display: flex;
+  flex-grow:1;
+  background-color: blueviolet;
+  flex-direction:row;
+
+}
+
+.leftSidebar{
+  width:50px;
+  background-color:rgb(255, 0, 157);
+}
+
+.mainContent{
+  display: flex;
+  flex-grow:1;
+}
+
+.rightSidebar{
+  width:50px;
+  background-color:red;
+}
+
+
+footer{
+  background-color:aqua;
+  height: 100px;
+}
