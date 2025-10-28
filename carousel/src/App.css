@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  display:flex;
+  flex-grow:1;
+  flex-direction: column;
+  height:100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.mainContent {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:300px;
+  width: 100%;
+}
+
+.carouselImages {
+  flex-direction:row;
+  display:flex;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.directionButton{
+  width:100px;
+  height:100%;
+  z-index: 1;
+}
+
+
+.caroselImage{
+  width:400px;
+  height:300px;
+  transition: transform 300ms ease;
+  object-fit: cover;
+  overflow-x: hidden;
+}
+
+.carouselDisplay{
+  flex-direction:row;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  z-index: 1;
+}
