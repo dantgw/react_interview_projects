@@ -1,0 +1,39 @@
+.unrevealed{
+    background-color: none;
+    border-radius: 4px;
+    border-color: azure;
+    border-width: 2px;
+    border-style: solid;
+    width: 32px;
+    height: 32px;
+    flex: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.exact{
+    background-color: green;
+    border-color: green;
+
+}
+
+.notInWord{
+    background-color: gray;
+}
+
+.inWord{
+    background-color: orange;
+    border-color: orange;
+
+}
+
+.standard{
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    width: 32px;
+    height: 32px;
+    flex: row;
+    justify-content: center;
+    align-content: center;
+}
